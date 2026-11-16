@@ -57,7 +57,8 @@
   const revealTargets = document.querySelectorAll(
     '.intro-heading, .intro-copy, .section-heading, .collection-card, ' +
     '.photo-note, .brands-note, .services-heading, .service-item, .visit-copy, .visit-card, ' +
-    '.detail-heading, .detail-visual, .detail-panel, .detail-cta, .related-link'
+    '.detail-heading, .detail-visual, .detail-panel, .detail-cta, .related-link, ' +
+    '.hours-table, .practical-feature'
   );
 
   function reveal(element, delay = 0) {
